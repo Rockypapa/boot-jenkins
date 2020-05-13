@@ -18,7 +18,11 @@ public class TestController {
 
 	@GetMapping("/hello")
 	public String hello(){
-
 		return "ok";
+	}
+
+	@GetMapping("/h")
+	public String hi(){
+		return "are you ok";
 	}
 }
